@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls(arr)
   # Your code here
-  
+  arr.any? {|x| x > 4}
 end
 
 def find_the_cheese(arr)
